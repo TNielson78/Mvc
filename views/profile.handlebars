@@ -1,0 +1,7 @@
+<div>
+    <h2>{{user.name}}</h2>
+</div>
+<form action="/api/posts" method="post">
+    <input type="text" name="name" value="{{user.name}}">
+    <input type="submit" value="Update">
+</form> 
