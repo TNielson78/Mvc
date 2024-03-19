@@ -1,5 +1,12 @@
 header, .project:not(:last-child) {
     border-bottom: 1px solid #ccc;
+    background-color: aqua;
+  }
+  body {
+    background-color: lightgray;
+  }
+  a {
+    color: darkgreen;
   }
   
   .no-button {
@@ -25,5 +32,17 @@ header, .project:not(:last-child) {
   .card {
     margin: 20px;
     width: 18em;
+    background-color: lightgreen;
+    border: black;
+    border-style: double;
+  }
+  button {
+    background-color: lightseagreen;
+    width: 10em;
+    height: 2em;
+    color: white;
+    border: black;
+    border-style: solid;
+    cursor: pointer;
   }
   
