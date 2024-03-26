@@ -5,11 +5,14 @@ const withAuth = require('../../utils/auth');
 
 router.post('/', async (req, res) => {
 
-    const { title, body } = req.body;
+    const { body,post_id } = req.body;
     const { user_id } = req.session;
+    console.log(req.body);
+    console.log(user_id);
     const comment = await Comment.create({
-      id,
+      
       body,
+      post_id,
       user_id,
     
     });
