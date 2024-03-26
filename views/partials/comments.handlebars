@@ -1,12 +1,8 @@
 <!-- Loop over each object in the projects array -->
-{{#each comments as |comment| }}
-<article class="comment">
-  <p>{{comment.body}}</p>
-  <p>Posted by {{comment.user.name}} on {{format_date comment.date_created}}</p>
-</article>
-{{/each}}
-<form class="comment-form" action="/api/comments" method="post">
+
+<form class="comment-form">
   <label for="comment-body">Add a comment</label>
   <textarea id="comment-body" name="comment-body" required></textarea>
-  <button type="submit">Add comment</button>
+  <button type="submit" data-id="{{post.id}}">Add comment</button>
 </form>
+<script src="../js/comments.js"></script>
