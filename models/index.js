@@ -1,7 +1,7 @@
 const User = require('./User');
 const Post = require('./Post');
 const Comment = require('./Comment');
-const { use } = require('../controllers/homeRoutes');
+
 
 Post.belongsTo(User, {
     foreignKey: 'user_id',
