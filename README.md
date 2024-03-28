@@ -1,5 +1,6 @@
 # Tech Blog
     T. Nielson
+    Deployed link:https://techblogtn-422c51311db7.herokuapp.com/
 ![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)
 ## Table of Contents
 * [Description](#description)
