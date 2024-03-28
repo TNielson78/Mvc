@@ -1,7 +1,7 @@
 {
-  "name": "mvc",
+  "name": "blog",
   "version": "1.0.0",
-  "description": "",
+  "description": "T. Nielson ![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg) ## Table of Contents * [Description](#description) * [Installation](#installation) * [Usage](#usage) * [Contributing](#contributing) * [Tests](#tests) *[Languages](#languages)",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -10,8 +10,8 @@
     "watch": "nodemon server.js"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "T. Nielson",
+  "license": "MIT",
   "dependencies": {
     "bcrypt": "^5.1.1",
     "connect-session-sequelize": "^7.1.7",
@@ -19,10 +19,14 @@
     "express": "^4.18.3",
     "express-handlebars": "^7.1.2",
     "express-session": "^1.18.0",
-    "mysql2": "^3.9.2",
+    "mysql2": "^3.9.3",
     "sequelize": "^6.37.1"
   },
   "devDependencies": {
     "nodemon": "^3.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "TNielson78"
   }
 }
