@@ -1,4 +1,4 @@
-document.addEventListener('DOMContentLoaded', () => {
+
   // Your code here
   const logout = async () => {
     const response = await fetch('/api/users/logout', {
@@ -13,6 +13,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   };
 
-  document.querySelector('#logout').addEventListener('click', logout);
-});
+  
+
+document.querySelector('#logout').addEventListener('click', logout);
 
